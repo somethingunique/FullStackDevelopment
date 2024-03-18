@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang ="eng">
+    <head>
+        <meta charset="UFT-8" />
+        <meta name="viewport" content="width=,initial-scale=1.0"/>
+        <title>Float CSS</title>
+        <style>
+           /* html{
+                font-family: "Inter";
+            }*/
+            .feature-container{
+                width: 820px;
+                background-color: blue;
+                margin-left: auto;
+                margin-top: 50px;
+            }
+            img{
+                float: left;
+                
+            }
+            /*Clear fix - using float layout*/
+            .feature-container::after{
+                content:"";
+                display: block;
+                clear: left;
+            }
+            .content{
+                padding-top: 50px;
+                margin-left: 100px; /*image pixel plus how much spaced needed*/
+                margin-right: 100px;
+
+            }
+            h2{
+                font-weight: 900;
+                font-size: 22px;
+                letter-spacing: -1px;
+            }
+            button{
+                border: none;
+                font-size: 24px;
+                font-family: "inter";
+                
+                padding: 12px 24px; /*first value top bottom, second value right left */
+
+            }
+             </style>
+    </head>
+    <body>
+        <div class="feature-container">
+        <img src="./img/MicrosoftTeams-image (8).png"
+        alt="image-designer"/>
+        <div class="content">
+            <h2>Designer world</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, asperiores.</p>
+        <button>Get Started</button>
+        </div>
+        </div>
+    </body>
+    </html>
