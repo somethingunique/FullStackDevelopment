@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=,initial-scale=1.0"/>
         <title>Float CSS</title>
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
            /* html{
                 font-family: "Inter";
             }*/
@@ -12,11 +13,13 @@
                 width: 820px;
                 background-color: blue;
                 margin-left: auto;
-                margin-top: 50px;
+                margin-right: auto;
+                margin-top: 20px;
             }
             img{
                 float: left;
-                
+                width: 200px;
+                height: 180px;
             }
             /*Clear fix - using float layout*/
             .feature-container::after{
@@ -24,10 +27,13 @@
                 display: block;
                 clear: left;
             }
+            
             .content{
-                padding-top: 50px;
-                margin-left: 100px; /*image pixel plus how much spaced needed*/
-                margin-right: 100px;
+                
+    /*image pixel plus how much spaced needed*/
+                padding-top: 10px;
+                text-align: center;
+                
 
             }
             h2{
@@ -36,19 +42,19 @@
                 letter-spacing: -1px;
             }
             button{
-                border: none;
-                font-size: 24px;
+                border:2px solid black;
+                font-size: 18px;
                 font-family: "inter";
-                
-                padding: 12px 24px; /*first value top bottom, second value right left */
+                margin-bottom: 10px;
+                padding: 10px 20px; /*first value top bottom, second value right left */
 
             }
              </style>
     </head>
     <body>
         <div class="feature-container">
-        <img src="./img/MicrosoftTeams-image (8).png"
-        alt="image-designer"/>
+        <img src="./img/flowers.png.jpg"
+        alt="image-designer">
         <div class="content">
             <h2>Designer world</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, asperiores.</p>
