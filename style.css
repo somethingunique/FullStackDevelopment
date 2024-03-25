@@ -1,0 +1,164 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+nav{
+  background-color:#58A399;  
+display: flex;
+padding: 20px 10px;
+align-items: center;
+justify-content: space-between;
+}
+nav h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+.nav-panel{
+    
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: "inter";
+
+}
+.nav-panel a{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+    color: #0a0d10;
+}
+.reg,.log{
+padding: 6px 12px;
+border: 2px solid blanchedalmond;
+border-radius: 8px;
+background-color: #FC819E;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 60px;
+}
+.Content{
+    text-align: center;
+    margin: 30px 30px;
+}
+.Content h3{
+    font-weight: 600px;
+    font-size: 60px;
+}
+.Content button{
+    padding:10px 20px;
+    border: 1px whitesmoke;
+    border-radius: 5px;
+    background-color: #A8CD9F;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+food{
+    padding: 60px 40px;
+    margin: 50px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E2F4C5;
+}
+food .ico, .menu, .para{
+
+text-align: center;
+}
+.icon{
+    width: 34px;
+    height: 34px;
+}
+
+
+/*-feedback-*/
+feedback{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 30px 60px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    flex-grow: 2;
+    margin-left: 30px;
+
+}
+.about{
+    width: 600px;
+}
+.about h3{
+margin-bottom: 15px;
+text-align: center;
+}
+.about button{
+    margin-top: 20px;
+    border: 10px #496989;
+    border-radius: 5px;
+    padding: 10px 18px;
+    background-color: rgb(30, 84, 29);
+    color: azure;
+}
+input, textarea{
+    margin: 10px 20px;
+    height: 40px;
+    background-color: #9fe0b8;
+    border: 1px solid black;
+
+}
+input [type="submit"]{
+    font-weight: 300px;
+}
+textarea{
+    height: 55px;
+}
+footer{
+    background-color: #627254;
+    padding: 50px 100px;
+    margin-top: 100px;
+}
+.media-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    width: 300px;
+    
+    
+}
+.box{
+    weight: 18px;
+    height: 18px;
+    justify-content: center;
+    margin-left: 40px;
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color:#DDDDDD;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.rights{
+    color:aliceblue;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 10px;
+}
